@@ -1,0 +1,24 @@
+{
+  "name": "boatws",
+  "version": "1.0.0",
+  "description": "Boat App WebSocket Server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsjasonc/boatws.git"
+  },
+  "author": "Jason Chung",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itsjasonc/boatws/issues"
+  },
+  "homepage": "https://github.com/itsjasonc/boatws#readme",
+  "dependencies": {
+    "dotenv": "^15.0.0",
+    "socket.io": "^4.4.1"
+  }
+}
